@@ -6,11 +6,11 @@
 	</head>
 	<body>
 		<script type="text/javascript" charset="utf-8">
-			
+			/*
 			myId = {
 				id: "Correct!"
 			}
-			
+			*/
 			
 			function alertMyId() {
 				alert(myId.id);
@@ -34,7 +34,7 @@
 		<ul>
 			<li><a href="#" onclick="alert(myId.id)">onclick="alert(myId.id)"</a></li>
 			<li><a href="#" onclick="alertMyId()">onclick="alertMyId()"</a></li>
-			<li><a href="#" onclick="for (i in myId) console.debug(i)">(Firebug) Traverse myId object using inline JS</a></li>
+			<li><a href="#" onclick="for (i in myId) console.debug(i)">(Console) Traverse myId object using inline JS</a></li>
 		</ul>
 	</body>
 </html>
